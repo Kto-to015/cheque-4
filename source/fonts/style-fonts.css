@@ -1,0 +1,32 @@
+/* Arial */
+@font-face {
+  font-family: Arial;
+  src: local(Arial), url('fonts/ArialMT.woff'), url('fonts/ArialMT.woff2');
+  font-weight: normal;
+}
+
+/* Montserrat */
+@font-face {
+  font-family: 'Montserrat-Light';
+  src: local('Montserrat-Light'), url('fonts/Montserrat-Light.woff'), url('fonts/Montserrat-Light.woff2');
+  font-weight: normal;
+}
+@font-face {
+  font-family: 'Montserrat-Regular';
+  src: local('Montserrat-Regular'), url('fonts/Montserrat-Regular.woff'), url('fonts/Montserrat-Regular.woff2');
+  font-weight: normal;
+}
+
+/* Montserrat-SemiBold */
+@font-face {
+  font-family: 'Montserrat-SemiBold';
+  src: local('Montserrat-SemiBold'), url('fonts/fonts/Montserrat-SemiBold.woff'), url('fonts/fonts/Montserrat-SemiBold.woff2');
+  font-weight: normal;
+}
+
+/* ComicSansMS */
+@font-face {
+  font-family: 'ComicSansMS';
+  src: local('ComicSansMS'), url('fonts/ComicSansMS.woff'), url('fonts/ComicSansMS.woff2');
+  font-weight: normal;
+}

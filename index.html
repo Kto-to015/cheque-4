@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Чек за распечатку(и)</title>
+    <link rel="stylesheet" href="source\style.css">
+    <link rel="stylesheet" href="source\fonts\style-fonts.css">
+  </head>
+  <body>
+    <header>
+      <div class="head-block">
+        <h1>Распечатка по астрономии</h1>
+        <div class="menu">
+          <div class="link">
+            <!-- <a class="a-edit" href="https://ciox.ru/discount-calculator">Калькулятор</a>
+            <p>|</p> -->
+            <a class="a-edit-b" href="https://disk.yandex.ru/d/wPgJYmfz7Z_EFw" onclick="no()">Распечатки&nbsp; в&nbsp; pdf</a>
+          </div>
+          <script>
+            alert('Скидка падает!');
+            // function no() {
+            //   alert('Нет материалов для создания ссылки');
+            // }
+            function Thankyou() {
+              alert('Заказывай ещё!)')
+            }
+          </script>
+        </div>
+      </div>
+    </header>
+    <main>
+      <div class="paragraf">
+        <div class="block">
+          <h2 style="padding-bottom: 25px;">Товарный чек</h2>
+          <div class="chek-text">
+            <p>Один лист – 10 руб</p>
+            <p>Количество листов – 8</p>
+            <p>Сумма к оплате – 80 руб</p>
+            <p>Скидка – 17%</p>
+            <p>Размер скидки: 13,60</p>
+            <p>Конечная сумма – 66,40 руб</p><br>
+            <p>Способ оплаты: договорной</p>
+            <br>
+          </div>
+          <p style="text-align: center; font-weight: bolder;">Спасибо за покупку!</p>
+          <div style="border-bottom: 1px solid black; margin-bottom: 25px; margin-top: 25px;"></div>
+          <center>
+            <a onclick="Thankyou()" class="Thankyou"><img src="source/QR/YQR.png" alt="Тут кью ар код" class="img-reg"></a>
+          </center>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
